@@ -1,1 +1,2 @@
-# handwriting-detection
+# Handwriting-recognition
+ 
