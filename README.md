@@ -26,51 +26,51 @@ This project focuses on recognizing handwritten digits using a machine learning 
 - NumPy
 - Matplotlib (for visualization)
 
-Install the required libraries using pip:
+### Install the required libraries using pip:
 ```bash
 pip install tensorflow keras numpy matplotlib
 ```
-Dataset
+##Dataset
 Ensure the dataset of handwritten digits is placed in the digits/ directory, organized into train and test folders, each containing subfolders for each digit (0-9).
 
-Training the Model
+### Training the Model
 To train the model, run the handwritingrecognition.py script:
 ```bash
 python handwritingrecognition.py --mode train
 ```
 This will train the model using the training dataset and save the model to saved_model.pb.
 
-Evaluating the Model
+### Evaluating the Model
 To evaluate the model on the test dataset, run:
 ```bash
 python handwritingrecognition.py --mode evaluate
 ```
-Script Details
+### Script Details
 handwritingrecognition.py
 This script contains functions for:
 
-Loading and preprocessing the dataset
-Building the neural network model
-Training the model
-Evaluating the model
-Saving and loading the model
-Command-line Arguments
---mode: Specify the mode of operation. Options are train and evaluate.
-Example usage:
+* Loading and preprocessing the dataset
+* Building the neural network model
+* Training the model
+* Evaluating the model
+* Saving and loading the model
+### Command-line Arguments
+* --mode: Specify the mode of operation. Options are train and evaluate.
+### Example usage:
 ```bash
 python handwritingrecognition.py --mode train
 ```
-Contributing
+### Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+### Acknowledgements
 The MNIST dataset for handwritten digits.
 TensorFlow and Keras libraries for building and training the model.<br/>
 
 
-Contact <br/>
+### Contact <br/>
 For any questions or issues, please contact alinanjum1999@gmail.com or open an issue here.
 
