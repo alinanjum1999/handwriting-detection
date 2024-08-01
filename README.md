@@ -69,6 +69,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgements
 The MNIST dataset for handwritten digits.
 TensorFlow and Keras libraries for building and training the model.<br/>
-Contact
+
+
+Contact <br/>
 For any questions or issues, please contact alinanjum1999@gmail.com or open an issue here.
 
